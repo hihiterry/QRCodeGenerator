@@ -79,7 +79,7 @@ body {
 
 @media (max-width: 600px) {
     #box {
-        width: 600px;
+        width: 90vh;
         height: 90vh;
     }
 
