@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QRcodeGenerator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="box">
+            <div id="qrcode"></div>
+            <input type="text" id="textBox" value="https://www.youtube.com/">
+            <br>
+            <button id="generateButton" class="button">Generate</button>
+            <br>
+            <br>
+            <button id="pngButton" class="button">Download png</button>
+            <button id="jpgButton" class="button">Download jpg</button>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+
+</html>
