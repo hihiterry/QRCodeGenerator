@@ -86,20 +86,20 @@ body {
     #generateButton {
         width: 80vw;
         height: 20vw;
-        font-size: 5rem;
+        font-size: 2rem;
     }
 
     #pngButton{
         margin-top: 0;
         width: 40vw;
         height: 20vw;
-        font-size: 5rem;
+        font-size: 2rem;
     }
     
     #jpgButton{
         margin-top: 0;
         width: 40vw;
         height: 20vw;
-        font-size: 5rem;
+        font-size: 2rem;
     }
 }
