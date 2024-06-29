@@ -83,11 +83,25 @@ body {
         max-height: 100vh;
     }
 
-    .button {
-        width: 12vw;
-        height: 12vw;
+    #generateButton {
+        width: 90vw;
+        height: 20vw;
         max-width: 45px;
         max-height: 45px;
         font-size: 1.2rem;
+    }
+
+    #pngButton{
+        margin-top: 0;
+        width: 40vw;
+        height: 20vw;
+        font-size: 1.5vw;
+    }
+    
+    #jpgButton{
+        margin-top: 0;
+        width: 40vw;
+        height: 20vw;
+        font-size: 1.5vw;
     }
 }
